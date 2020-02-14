@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import Banner from '../components/Banner'
 import {Link} from 'react-router-dom'
 import Services from '../components/Services'
+import Featuredroom from '../components/FeaturedRoom'
+import Button from '../components/StyledHero'
 
 const Home = ()=>{
 
@@ -15,6 +17,8 @@ const Home = ()=>{
             </Banner>
             </Hero>
             <Services />
+            <Featuredroom/>
+            <Button>Hello</Button>
             </>
         </div>
     )
